@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4fa00304a536a34a832759c4a737c14, type: 3}
+  m_Name: PlantModeBank
+  m_EditorClassIdentifier: 
+  guidA: -1847490753
+  guidB: 1268801650
+  guidC: 225828225
+  guidD: -14980152
+  soundBatchImportMode: 0
+  showSounds: 1
+  showSoundBuses: 1
+  sounds:
+  - id: 2140334100
+    name: PlantModeBegin
+    muted: 0
+    soloed: 0
+    unfolded: 0
+    panStereo: 0
+    spatialBlend: 0
+    attenuationMode: 0
+    spread: 0
+    dopplerLevel: 1
+    minDistance: 1
+    maxDistance: 500
+    variationRetriggerMode: 2
+    variations:
+    - clip: {fileID: 8300000, guid: a3d69e312506bf149a04a23b6f1f3754, type: 3}
+      fixedVolume: 1
+      fixedPitch: 1
+      fixedDelay: 0
+      randomizeVolume: 0
+      randomizePitch: 0
+      randomizeDelay: 0
+      randomVolumeRange: {x: 1, y: 1}
+      randomPitchRange: {x: 1, y: 1}
+      randomDelayRange: {x: 0, y: 0}
+    audioClipManagementMode: 1
+    audioClipUnloadInterval: 60
+    overrideAudioClipManagement: 0
+    volume: 0.75
+    hasVolume: 1
+  - id: 506234012
+    name: PlantModeRootsLoop
+    muted: 0
+    soloed: 0
+    unfolded: 0
+    panStereo: 0
+    spatialBlend: 0
+    attenuationMode: 0
+    spread: 0
+    dopplerLevel: 1
+    minDistance: 1
+    maxDistance: 500
+    variationRetriggerMode: 2
+    variations:
+    - clip: {fileID: 8300000, guid: aa7a95105a6773545b9f91d19070ec78, type: 3}
+      fixedVolume: 1
+      fixedPitch: 1
+      fixedDelay: 0
+      randomizeVolume: 0
+      randomizePitch: 0
+      randomizeDelay: 0
+      randomVolumeRange: {x: 1, y: 1}
+      randomPitchRange: {x: 1, y: 1}
+      randomDelayRange: {x: 0, y: 0}
+    audioClipManagementMode: 1
+    audioClipUnloadInterval: 60
+    overrideAudioClipManagement: 0
+    volume: 1
+    hasVolume: 1
+  - id: 535072237
+    name: PlantModeShoot
+    muted: 0
+    soloed: 0
+    unfolded: 0
+    panStereo: 0
+    spatialBlend: 0
+    attenuationMode: 0
+    spread: 0
+    dopplerLevel: 1
+    minDistance: 1
+    maxDistance: 500
+    variationRetriggerMode: 2
+    variations:
+    - clip: {fileID: 8300000, guid: 9cd2a11daddf5824991665fc086b6eea, type: 3}
+      fixedVolume: 1
+      fixedPitch: 1
+      fixedDelay: 0
+      randomizeVolume: 0
+      randomizePitch: 1
+      randomizeDelay: 0
+      randomVolumeRange: {x: 1, y: 1}
+      randomPitchRange: {x: 0.85, y: 1.1}
+      randomDelayRange: {x: 0, y: 0}
+    audioClipManagementMode: 1
+    audioClipUnloadInterval: 60
+    overrideAudioClipManagement: 0
+    volume: 1
+    hasVolume: 1
+  - id: 411793939
+    name: PlantModeEnd
+    muted: 0
+    soloed: 0
+    unfolded: 0
+    panStereo: 0
+    spatialBlend: 0
+    attenuationMode: 0
+    spread: 0
+    dopplerLevel: 1
+    minDistance: 1
+    maxDistance: 500
+    variationRetriggerMode: 2
+    variations:
+    - clip: {fileID: 8300000, guid: 4727da7c6185bfd45acb41a3fc7e03a3, type: 3}
+      fixedVolume: 1
+      fixedPitch: 1
+      fixedDelay: 0
+      randomizeVolume: 0
+      randomizePitch: 0
+      randomizeDelay: 0
+      randomVolumeRange: {x: 1, y: 1}
+      randomPitchRange: {x: 1, y: 1}
+      randomDelayRange: {x: 0, y: 0}
+    audioClipManagementMode: 1
+    audioClipUnloadInterval: 60
+    overrideAudioClipManagement: 0
+    volume: 0.75
+    hasVolume: 1
+  - id: 34158088
+    name: PlantModeBloom
+    muted: 0
+    soloed: 0
+    unfolded: 0
+    panStereo: 0
+    spatialBlend: 0
+    attenuationMode: 0
+    spread: 0
+    dopplerLevel: 1
+    minDistance: 1
+    maxDistance: 500
+    variationRetriggerMode: 2
+    variations:
+    - clip: {fileID: 8300000, guid: 8f4c10489458eed4eb9624d3b95c3dbe, type: 3}
+      fixedVolume: 1
+      fixedPitch: 1
+      fixedDelay: 0.155
+      randomizeVolume: 0
+      randomizePitch: 0
+      randomizeDelay: 0
+      randomVolumeRange: {x: 1, y: 1}
+      randomPitchRange: {x: 1, y: 1}
+      randomDelayRange: {x: 0, y: 0}
+    - clip: {fileID: 8300000, guid: e664b663883f7cd4eb8c0b1ec221d9d5, type: 3}
+      fixedVolume: 1
+      fixedPitch: 1
+      fixedDelay: 0.155
+      randomizeVolume: 0
+      randomizePitch: 0
+      randomizeDelay: 0
+      randomVolumeRange: {x: 1, y: 1}
+      randomPitchRange: {x: 1, y: 1}
+      randomDelayRange: {x: 0, y: 0}
+    - clip: {fileID: 8300000, guid: 6e07b86d6ce1c094dbf0ba69fc4b8952, type: 3}
+      fixedVolume: 1
+      fixedPitch: 1
+      fixedDelay: 0.155
+      randomizeVolume: 0
+      randomizePitch: 0
+      randomizeDelay: 0
+      randomVolumeRange: {x: 1, y: 1}
+      randomPitchRange: {x: 1, y: 1}
+      randomDelayRange: {x: 0, y: 0}
+    audioClipManagementMode: 1
+    audioClipUnloadInterval: 60
+    overrideAudioClipManagement: 0
+    volume: 1
+    hasVolume: 1
+  - id: 847285870
+    name: PlantModeError
+    muted: 0
+    soloed: 0
+    unfolded: 0
+    panStereo: 0
+    spatialBlend: 0
+    attenuationMode: 0
+    spread: 0
+    dopplerLevel: 1
+    minDistance: 1
+    maxDistance: 500
+    variationRetriggerMode: 2
+    variations:
+    - clip: {fileID: 8300000, guid: 6c426ea31712f344bb4170637acedef2, type: 3}
+      fixedVolume: 1
+      fixedPitch: 1
+      fixedDelay: 0
+      randomizeVolume: 0
+      randomizePitch: 1
+      randomizeDelay: 0
+      randomVolumeRange: {x: 1, y: 1}
+      randomPitchRange: {x: 0.9, y: 1.1}
+      randomDelayRange: {x: 0, y: 0}
+    audioClipManagementMode: 1
+    audioClipUnloadInterval: 60
+    overrideAudioClipManagement: 0
+    volume: 1
+    hasVolume: 1
+  - id: 1681684815
+    name: PlayerFootstep
+    muted: 0
+    soloed: 0
+    unfolded: 0
+    panStereo: 0
+    spatialBlend: 0
+    attenuationMode: 0
+    spread: 0
+    dopplerLevel: 1
+    minDistance: 1
+    maxDistance: 500
+    variationRetriggerMode: 2
+    variations:
+    - clip: {fileID: 8300000, guid: d2810e34f387f7b42a3cad2fb9e8449a, type: 3}
+      fixedVolume: 1
+      fixedPitch: 1
+      fixedDelay: 0
+      randomizeVolume: 0
+      randomizePitch: 1
+      randomizeDelay: 0
+      randomVolumeRange: {x: 1, y: 1}
+      randomPitchRange: {x: 0.8, y: 1.15}
+      randomDelayRange: {x: 0, y: 0}
+    audioClipManagementMode: 1
+    audioClipUnloadInterval: 60
+    overrideAudioClipManagement: 0
+    volume: 0.1
+    hasVolume: 1
+  buses:
+  - id: 1405818274
+    name: SFX
+    muted: 0
+    soloed: 0
+    mixerGroup: {fileID: 0}
+    volume: 1
+    polyphony: 8
+    unfolded: 1
+    allowVoiceStealing: 1
+    playLimitInterval: 0
+  busIndices: 00000000000000000000000000000000000000000000000000000000
+  soundManagementMode: 1
+  soundUnloadInterval: 60
